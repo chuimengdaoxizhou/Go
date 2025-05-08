@@ -1,8 +1,8 @@
-本项目使用 Go 实现了四种经典限流算法：**固定窗口（Fixed Window）**、**滑动窗口（Sliding Window）**、**漏桶（Leaky Bucket）** 和 **令牌桶（Token Bucket）**，并通过 Gin 和 gRPC 框架分别演示了如何集成这些限流器。
+使用 Go 实现了四种经典限流算法：**固定窗口（Fixed Window）**、**滑动窗口（Sliding Window）**、**漏桶（Leaky Bucket）** 和 **令牌桶（Token Bucket）**，并通过 Gin 和 gRPC 框架分别演示了如何集成这些限流器。
 
 ---
 
-## 🧠 项目目标
+## 🧠 目标
 
 - 掌握常见限流模型的原理与实现
 - 能在实际项目中接入高效限流逻辑，保护系统稳定性
